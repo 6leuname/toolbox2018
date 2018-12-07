@@ -1,0 +1,36 @@
+.flexcontainer {
+    height: 500px;
+    background-color: grey;
+    display: flex;
+    align-content: space-around;
+}
+
+.flexitem {
+    margin: 1px;
+    background-color: rgb(255, 0, 0);
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 95px;
+    align-self: auto;
+}
+.flexitem2 {
+    margin: 1px;
+    background-color: rgb(0, 255, 0);
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 95px;
+    align-self: stretch;
+}
+.flexitem3 {
+    margin: 1px;
+    background-color: rgb(0, 0, 255);
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 95px;
+    align-self: auto;
+    order:3;
+    flex-shrink: 10;
+}
